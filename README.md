@@ -182,8 +182,8 @@ npm run verify                   # lint + typecheck + 186 tests + build
 
 | Name | Role |
 |---|---|
-| **Siddharth Gupta** | Full-Stack Developer |
-| **Tanishq Maheshwari** | Full-Stack Developer |
+| **Siddharth Gupta** | Developer |
+| **Tanishq Maheshwari** | Developer |
 
 ---
 
