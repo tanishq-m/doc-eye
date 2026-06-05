@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#6366f150"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10b98180"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="340" fill="url(#bg)" rx="14"/>
+
+  <!-- Grid -->
+  <g opacity="0.03">
+    <line x1="0" y1="85" x2="900" y2="85" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="170" x2="900" y2="170" stroke="#6366f1" stroke-width="1"/>
+    <line x1="0" y1="255" x2="900" y2="255" stroke="#6366f1" stroke-width="1"/>
+    <line x1="225" y1="0" x2="225" y2="340" stroke="#6366f1" stroke-width="1"/>
+    <line x1="450" y1="0" x2="450" y2="340" stroke="#6366f1" stroke-width="1"/>
+    <line x1="675" y1="0" x2="675" y2="340" stroke="#6366f1" stroke-width="1"/>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="14" font-weight="700" fill="#e2e8f0" letter-spacing="3">ARCHITECTURE</text>
+  <rect x="350" y="42" width="200" height="1.5" fill="url(#accent)" rx="1" opacity="0.5"/>
+
+  <!-- ===== LAYER 1: Browser ===== -->
+  <rect x="30" y="60" width="840" height="72" rx="10" fill="#6366f108" stroke="#6366f130" stroke-width="1.2"/>
+  <text x="50" y="80" font-size="9" font-weight="700" fill="#6366f1" letter-spacing="2">BROWSER</text>
+
+  <!-- Zustand -->
+  <rect x="55" y="86" width="130" height="36" rx="7" fill="#1e1e2e" stroke="#10b981" stroke-width="1"/>
+  <text x="120" y="103" text-anchor="middle" font-size="10" font-weight="600" fill="#10b981">Zustand Store</text>
+  <text x="120" y="116" text-anchor="middle" font-size="9" fill="#475569">Per-org · localStorage</text>
+
+  <!-- Pages -->
+  <rect x="205" y="86" width="250" height="36" rx="7" fill="#1e1e2e" stroke="#6366f1" stroke-width="1"/>
+  <text x="330" y="103" text-anchor="middle" font-size="10" font-weight="600" fill="#6366f1">Next.js Pages  /o/[orgId]/*</text>
+  <text x="330" y="116" text-anchor="middle" font-size="9" fill="#475569">dashboard · graph · gaps · ask · upload · export</text>
+
+  <!-- Client libs -->
+  <rect x="475" y="86" width="370" height="36" rx="7" fill="#1e1e2e" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="660" y="103" text-anchor="middle" font-size="10" font-weight="600" fill="#8b5cf6">Client Libraries</text>
+  <text x="660" y="116" text-anchor="middle" font-size="9" fill="#475569">askClient · uploadClient · graphAdapter · gapDetector · orgExport</text>
+
+  <!-- ===== LAYER 2: API Routes ===== -->
+  <rect x="30" y="152" width="840" height="72" rx="10" fill="#f59e0b06" stroke="#f59e0b25" stroke-width="1.2"/>
+  <text x="50" y="172" font-size="9" font-weight="700" fill="#f59e0b" letter-spacing="2">NEXT.JS API ROUTES (SERVER)</text>
+
+  <rect x="55" y="178" width="95" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="102" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/upload</text>
+  <text x="102" y="208" text-anchor="middle" font-size="8" fill="#475569">Blob→DocIntel</text>
+
+  <rect x="162" y="178" width="95" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="209" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/query</text>
+  <text x="209" y="208" text-anchor="middle" font-size="8" fill="#475569">Search→Mistral</text>
+
+  <rect x="269" y="178" width="95" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="316" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/gaps</text>
+  <text x="316" y="208" text-anchor="middle" font-size="8" fill="#475569">Gap detection</text>
+
+  <rect x="376" y="178" width="95" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="423" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/process</text>
+  <text x="423" y="208" text-anchor="middle" font-size="8" fill="#475569">Runbook gen</text>
+
+  <rect x="483" y="178" width="125" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="545" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/org-connector</text>
+  <text x="545" y="208" text-anchor="middle" font-size="8" fill="#475569">External agent auth</text>
+
+  <rect x="620" y="178" width="145" height="36" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="692" y="195" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">/api/demo-corpus/seed</text>
+  <text x="692" y="208" text-anchor="middle" font-size="8" fill="#475569">Index Acme demo</text>
+
+  <!-- ===== LAYER 3: Azure + AI ===== -->
+  <rect x="30" y="244" width="840" height="78" rx="10" fill="#0ea5e906" stroke="#0ea5e925" stroke-width="1.2"/>
+  <text x="50" y="264" font-size="9" font-weight="700" fill="#0ea5e9" letter-spacing="2">AZURE AI SERVICES</text>
+
+  <rect x="55" y="270" width="148" height="42" rx="7" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1"/>
+  <text x="129" y="287" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b">Mistral AI</text>
+  <text x="129" y="300" text-anchor="middle" font-size="8" fill="#475569">Generation · Drafts · Plans</text>
+
+  <rect x="215" y="270" width="148" height="42" rx="7" fill="#1e1e2e" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="289" y="287" text-anchor="middle" font-size="9" font-weight="600" fill="#8b5cf6">Azure OpenAI</text>
+  <text x="289" y="300" text-anchor="middle" font-size="8" fill="#475569">text-embedding-3-small</text>
+
+  <rect x="375" y="270" width="160" height="42" rx="7" fill="#1e1e2e" stroke="#0ea5e9" stroke-width="1"/>
+  <text x="455" y="287" text-anchor="middle" font-size="9" font-weight="600" fill="#0ea5e9">Azure AI Search</text>
+  <text x="455" y="300" text-anchor="middle" font-size="8" fill="#475569">HNSW · hybrid · orgId filter</text>
+
+  <rect x="547" y="270" width="155" height="42" rx="7" fill="#1e1e2e" stroke="#38bdf8" stroke-width="1"/>
+  <text x="624" y="287" text-anchor="middle" font-size="9" font-weight="600" fill="#38bdf8">Azure Doc Intelligence</text>
+  <text x="624" y="300" text-anchor="middle" font-size="8" fill="#475569">PDF · DOCX extraction</text>
+
+  <rect x="714" y="270" width="136" height="42" rx="7" fill="#1e1e2e" stroke="#64748b" stroke-width="1"/>
+  <text x="782" y="287" text-anchor="middle" font-size="9" font-weight="600" fill="#94a3b8">Azure Blob Storage</text>
+  <text x="782" y="300" text-anchor="middle" font-size="8" fill="#475569">File persistence</text>
+
+  <!-- Connector arrows between layers -->
+  <line x1="450" y1="132" x2="450" y2="152" stroke="#6366f140" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#arrow)"/>
+  <line x1="450" y1="224" x2="450" y2="244" stroke="#10b98140" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#arrow-green)"/>
+</svg>

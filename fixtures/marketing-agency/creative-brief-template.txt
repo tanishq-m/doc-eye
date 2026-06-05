@@ -1,0 +1,44 @@
+CREATIVE BRIEF TEMPLATE
+
+PROJECT: [Insert Project Name]
+CLIENT: [Client Name]
+DATE: [Date]
+
+OBJECTIVE:
+[What is the goal of this creative work?]
+
+TARGET AUDIENCE:
+- Demographics: [Age, location, income]
+- Psychographics: [Values, interests, pain points]
+- Behavior: [Online habits, preferences]
+
+KEY MESSAGES:
+1. [Primary message]
+2. [Secondary message]
+3. [Call to action]
+
+CREATIVE REQUIREMENTS:
+- Format: [Video, image, copy, etc.]
+- Duration: [Length requirements]
+- Platforms: [Where will it run]
+- Technical specs: [Dimensions, resolution, etc.]
+
+BRAND ELEMENTS:
+- Logo usage: [Required/Optional]
+- Brand colors: [List colors]
+- Tone of voice: [Professional/Casual/Other]
+
+DELIVERABLES:
+- Quantity: [Number of assets]
+- Deadline: [Date]
+- Revisions: [Number included]
+
+APPROVAL PROCESS:
+1. Initial concept: [Date]
+2. Client feedback: [Date]
+3. Final revision: [Date]
+4. Sign-off: [Date]
+
+REFERENCE MATERIALS:
+- See Brand Guidelines
+- See Client Onboarding Playbook

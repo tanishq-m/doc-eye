@@ -1,0 +1,66 @@
+{
+  "orgName": "Pulse Creative Agency",
+  "description": "A modern digital marketing agency with diverse service offerings",
+  "documents": [
+    {
+      "filename": "agency-master-service-agreement.pdf",
+      "title": "Master Service Agreement",
+      "format": "pdf",
+      "category": "contracts"
+    },
+    {
+      "filename": "brand-voice-guidelines.md",
+      "title": "Brand Voice Guidelines",
+      "format": "markdown",
+      "category": "standards"
+    },
+    {
+      "filename": "media-buying-standards.md",
+      "title": "Media Buying Standards",
+      "format": "markdown",
+      "category": "standards"
+    },
+    {
+      "filename": "campaign-performance-dashboard-guide.md",
+      "title": "Campaign Performance Dashboard Guide",
+      "format": "markdown",
+      "category": "guides"
+    },
+    {
+      "filename": "client-onboarding-playbook.md",
+      "title": "Client Onboarding Playbook",
+      "format": "markdown",
+      "category": "procedures"
+    },
+    {
+      "filename": "influencer-partnership-policy.docx",
+      "title": "Influencer Partnership Policy",
+      "format": "docx",
+      "category": "policies"
+    },
+    {
+      "filename": "q1-campaign-performance-report.docx",
+      "title": "Q1 Campaign Performance Report",
+      "format": "docx",
+      "category": "reports"
+    },
+    {
+      "filename": "social-media-strategy.txt",
+      "title": "Social Media Strategy",
+      "format": "text",
+      "category": "strategies"
+    },
+    {
+      "filename": "creative-brief-template.txt",
+      "title": "Creative Brief Template",
+      "format": "text",
+      "category": "templates"
+    },
+    {
+      "filename": "analytics-reporting-standards.txt",
+      "title": "Analytics Reporting Standards",
+      "format": "text",
+      "category": "standards"
+    }
+  ]
+}
