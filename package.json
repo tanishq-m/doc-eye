@@ -2,6 +2,9 @@
   "name": "doc-eye",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "22.x"
+},
   "scripts": {
     "dev": "next dev",
     "dev:clean": "rm -rf .next && next dev",
